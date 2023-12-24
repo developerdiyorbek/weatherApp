@@ -46,6 +46,7 @@ btn.addEventListener("click", () => {
       // windSpeed
       const windSpeed = document.querySelector(".windSpeed");
       windSpeed.textContent = `${data.current.wind_kph} km/h`;
+      input.value = "";
     }
   });
 });
