@@ -39,7 +39,7 @@ btn.addEventListener("click", () => {
       wForecast.textContent = `${data.current.condition.text}`;
       // cityName
       const cityName = document.querySelector(".cityName");
-      cityName.textContent = `${data.location.name}`;
+      cityName.textContent = `${data.location.name}, ${data.location.country} `;
       // humidity
       const humid = document.querySelector(".humid");
       humid.textContent = `${data.current.humidity}%`;
